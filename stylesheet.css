@@ -1,0 +1,25 @@
+/* Mobile/General styling*/
+@media (max-width: 767px) {
+    Body {
+        Background-color:
+    
+    }
+    }
+    
+    
+    /* tablet  */
+    @media (min-width:768px) and (max-width: 1023px) {
+    Body {
+        Background-color: 
+    
+    }
+    }
+    
+    /*desktop   */
+    @media (min-width: 1024px) {
+    Body {
+        Background-color: 
+    
+    }
+    }
+    
