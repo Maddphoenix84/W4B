@@ -93,7 +93,29 @@ body {
     background-color: white;
 }
 
-/* .arrow {
-    border-radius: 50%;
-    background-color: #D5D4F5;
-} */
+#section3{
+    display: grid;
+    grid-template-rows: auto auto auto;
+
+}
+
+.sec3grp1{
+    background-color: #FFD2D2;
+    border-radius: 10px;
+    width: 500px;
+    
+}
+
+.sec3grp2{
+    background-color: #FFC166;
+    border-radius: 10px;
+    width: 500px;
+
+}
+
+.sec3grp3{
+    background-color: #54C788;
+    border-radius: 10px;
+    width: 500px;
+}
+
