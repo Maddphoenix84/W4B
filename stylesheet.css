@@ -5,7 +5,7 @@ body {
     padding: 5px 5px;
     border: 5px solid black;
     margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minma(250px, 1fr));
 }
 
 .header {
@@ -29,6 +29,8 @@ body {
 }
 
 .sec1grp1{
+    display: grid;
+    grid-template-columns: auto auto auto ;
     background-color:#B8DDFF;
     grid-column: 1/3;
     padding: 5px 5px;
@@ -39,6 +41,7 @@ body {
 }
 
 .sec1grp2{
+    display: grid;
     background-color: #CAF0DB;
     padding: 5px 5px;
     border: 5px solid white;
@@ -48,6 +51,7 @@ body {
 }
 
 .sec1grp3{
+    display: grid;
     background-color: #FFD2D2;
     padding: 5px 5px;
     border: 5px solid white;
@@ -57,6 +61,7 @@ body {
 }
 
 .sec1grp4{
+    display: grid;
     background-color: #FFE7C4;
     padding: 5px 5px;
     border: 5px solid white;
@@ -67,6 +72,7 @@ body {
 
 
 .sec1grp5{
+    display: grid;
     background-color: #D5D4F5;
     padding: 5px 5px;
     border: 5px solid white;
@@ -87,13 +93,15 @@ body {
 }
 
 .sec2grp1{
-    padding: 5px 5px;
+
+    display: grid;padding: 5px 5px;
      margin: 5px 5px 5px 5px;
      grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
 
 }
 
 .sec2grp2{
+    display: grid;
     padding: 5px 5px;
     border: 5px solid white;
     border-radius: 10px;
@@ -106,15 +114,17 @@ body {
     display: grid;
     grid-template-rows: auto auto auto auto;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minma(250px, 1fr));
 }
 
 .sec3grp0{
+    display: grid;
     width: 500px;
     grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
 }    
 
 .sec3grp1{
+    display: grid;
     background-color: #FFD2D2;
     border-radius: 10px;
     width: 500px;
@@ -122,6 +132,7 @@ body {
 }
 
 .sec3grp2{
+    display: grid;
     background-color: #FFC166;
     border-radius: 10px;
     width: 500px;
@@ -129,6 +140,7 @@ body {
 }
 
 .sec3grp3{
+    display: grid;
     background-color: #54C788;
     border-radius: 10px;
     width: 500px;
@@ -164,6 +176,7 @@ body {
 }
 
 .sec4grp1{
+    display: grid;
     background-color: #D5D4F5;
     border-radius: 10px;
     padding: 5px 5px;
@@ -174,6 +187,7 @@ body {
 }
 
 .sec4grp2{
+    display: grid;
     background-color: #D5D4F5;
     border-radius: 10px;
     padding: 5px 5px;
@@ -184,6 +198,7 @@ body {
 }
 
 .sec4grp3{
+    display: grid;
     background-color: #D5D4F5;
     border-radius: 10px;
     padding: 5px 5px;
@@ -194,6 +209,7 @@ body {
 }
 
 .sec4grp4{
+    display: grid;
     background-color: #D5D4F5;
     border-radius: 10px;
     padding: 5px 5px;
@@ -204,6 +220,7 @@ body {
 }
 
 .sec4grp5{
+    display: grid;
     background-color: #D5D4F5;
     border-radius: 10px;
     padding: 5px 5px;
@@ -214,6 +231,7 @@ body {
 }
 
 .sec4grp6{
+    display: grid;
     background-color: #D5D4F5;
     border-radius: 10px;
     padding: 5px 5px;
@@ -226,5 +244,5 @@ body {
 #section5{
     display: grid;
     grid-template-columns: auto auto;
-    
+    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
 }
