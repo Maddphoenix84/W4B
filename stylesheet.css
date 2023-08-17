@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     background-color: rgb(251, 255, 255);
     padding: 5px 5px;
     border: 5px solid black;
@@ -101,11 +101,7 @@ body {
 
 .sec3grp0{
     width: 500px;
-    
-}
-h1{
-    color: #9693E6;
-}
+}    
 
 .sec3grp1{
     background-color: #FFD2D2;
@@ -127,3 +123,62 @@ h1{
     width: 500px;
 }
 
+#section4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #9693E6;
+}
+
+.sec4grp1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 5px solid rgb(235, 35, 35);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.sec4grp2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 5px solid rgb(235, 35, 35);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.sec4grp3{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 5px solid rgb(235, 35, 35);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.sec4grp4{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 5px solid rgb(235, 35, 35);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.sec4grp5{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 5px solid rgb(235, 35, 35);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.sec4grp6{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 5px solid rgb(235, 35, 35);
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+}
