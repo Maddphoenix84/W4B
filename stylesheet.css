@@ -107,7 +107,7 @@
     background-color: white;
     display: grid;
     grid-template-rows: auto auto auto auto;
-    border-radius: 20px;
+    border-radius: 10px;
 
     
 }
@@ -136,12 +136,14 @@
 #section3 {
     display: grid;
     grid-template-rows: auto auto auto auto;
+    
 
 }
 
 .testies {
     display: grid;
     grid-template-rows: auto auto auto;
+   
     
 }
 .testimonials {
@@ -161,6 +163,155 @@
 
 
 
+.dork {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    background-color: #FF8A8A;
+    justify-items: center;
+    border-radius: 10px;
+    width: 400px;
+    justify-self: center;
+    margin: 5px;
+}
+
+.hottie {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    background-color: #FFC166;
+    justify-items: center;
+    border-radius: 10px;
+    width: 400px;
+    justify-self: center;
+    margin: 5px;
+}
+
+
+.red {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    background-color: #54C788;
+    justify-items: center;
+    border-radius: 10px;
+    width: 400px;
+    justify-self: center;
+    margin: 5px;
+}
+
+
+
+#section4 {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    background-color: #0084FF;
+    color: white;
+}
+
+.beni1{
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    background-color:white;
+    color: #9693E6;
+    justify-items: center;
+    border-radius: 10px;
+    width: 550px;
+    justify-self: center;
+    margin: 5px;
+}
+
+.beni2
+{
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    background-color: white;
+    color: #9693E6;
+    justify-items: center;
+    border-radius: 10px;
+    width: 550px;
+    justify-self: center;
+    margin: 5px; 
+}
+
+.creativeteam {
+    justify-self: baseline;
+    
+}
+
+.beni3 {
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    background-color: white;
+    color: #9693E6;
+    justify-items: center;
+    border-radius: 10px;
+    width: 550px;
+    justify-self: center;
+    margin: 5px;
+}
+.results {
+    justify-self: baseline;
+
+}
+
+.beni4 {
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    background-color: white;
+    color: #9693E6;
+    justify-items: center;
+    border-radius: 10px;
+    width: 550px;
+    justify-self: center;
+    margin: 5px;
+}
+
+.pricing {
+    justify-self: baseline;
+}
+    
+
+.beni5 {
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    background-color: white;
+    color: #9693E6;
+    justify-items: center;
+    border-radius: 10px;
+    width: 550px;
+    justify-self: center;
+    margin: 5px;
+}
+
+.innovations {
+    justify-self: baseline;
+}
+
+
+.beni6 {
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    background-color: white;
+    color: #9693E6;
+    justify-items: center;
+    border-radius: 10px;
+    width: 550px;
+    justify-self: center;
+    margin: 5px;
+}
+
+.support {
+    justify-self: baseline;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto;
+    justify-self: start;
+    background-color: #9693E6;
+    color: white;
+    font-size:25px;
+    border-radius: 10px;
+    
+}
 
 
 
@@ -171,7 +322,7 @@
 
 
 
-    /* tablet  */
+/* tablet  */
     @media (min-width:768px) and (max-width: 1023px) {
     Body {
         
