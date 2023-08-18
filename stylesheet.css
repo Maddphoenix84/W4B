@@ -130,17 +130,34 @@
     display: grid;
     justify-self: center;
     border-radius: 50%;
-    width: 90px;
+    width: 50px;
 }
 
+#section3 {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
 
+}
 
+.testies {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    
+}
+.testimonials {
+    display: grid;
+    
+}
 
+.committed {
+    display: grid;
 
-
-
-
-
+}
+.para {
+    display: grid;
+    justify-self: center;
+    width: 500px;
+}
 
 
 
