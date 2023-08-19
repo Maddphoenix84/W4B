@@ -3,9 +3,8 @@
     Body {
         display: grid;
         grid-template-rows: auto auto auto auto auto;
-         grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-         font-family: sans-serif
-       
+        font-family: sans-serif
+        
         }
 
 
@@ -18,7 +17,7 @@
     color: white;
     margin: 5px;
     border-radius: 10px;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
     
 }
  
@@ -27,20 +26,20 @@
     grid-template-columns: auto auto;
     justify-content: right;
     align-content: center;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 
 #section1 {
     display: grid;
     grid-template-rows: auto auto auto auto ;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .one {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
     background-color: #B8DDFF;
     color: #0084FF;
     justify-items: center;
@@ -52,7 +51,7 @@
     background-color: #CAF0DB;
     color: #54C788;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+   
     justify-items: center;
     border-radius: 10px;
     margin: 5px;
@@ -62,7 +61,7 @@
     background-color: #FFD2D2;
     color: #FF8A8A;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
     justify-items: center;
     border-radius: 10px;
     margin: 5px;
@@ -72,7 +71,7 @@
     background-color: #FFE7C4;
     color: #FFC166;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
     justify-items: center;
     border-radius: 10px;
     margin: 5px;
@@ -82,7 +81,7 @@
     background-color: #D5D4F5;
     color: #9693E6;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
     justify-items: center;
     border-radius: 10px;
     margin: 5px;
@@ -92,7 +91,7 @@
     background-color: #9693E6;
     display: grid;
      grid-template-rows: auto auto;
-     grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
     border-radius: 10px;
 
 }
@@ -101,7 +100,7 @@
     display: grid;
     justify-items: center;
     color: white;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .seven {
@@ -110,7 +109,7 @@
     justify-items: center;
     background-color:#9693E6;
     margin: 20px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
     
 }
 
@@ -119,7 +118,7 @@
     display: grid;
     grid-template-rows: auto auto auto auto;
     border-radius: 10px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
     
 }
 
@@ -127,14 +126,14 @@
 .ideaman {
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 
 .appd {
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 
@@ -144,36 +143,36 @@
     justify-self: center;
     border-radius: 50%;
     width: 50px;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 #section3 {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 
 }
 
 .testies {
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
     
 }
 .testimonials {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .committed {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 .para {
     display: grid;
     justify-self: center;
     width: 500px;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 
@@ -187,8 +186,24 @@
     width: 400px;
     justify-self: center;
     margin: 5px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
+
+.leftq1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: start;
+}
+
+
+.rightq1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: end;
+}
+
 
 .hottie {
     display: grid;
@@ -199,7 +214,21 @@
     width: 400px;
     justify-self: center;
     margin: 5px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
+}
+
+.leftq2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: start;
+}
+
+.rightq2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: end;
 }
 
 
@@ -212,9 +241,23 @@
     width: 400px;
     justify-self: center;
     margin: 5px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
+.leftq3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: start;
+}
+
+
+.rightq3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-self: end;
+}
 
 
 #section4 {
@@ -222,7 +265,7 @@
     grid-template-rows: auto auto auto auto auto auto;
     background-color: #0084FF;
     color: white;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .beni1{
@@ -235,7 +278,7 @@
     width: 550px;
     justify-self: center;
     margin: 5px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .beni2
@@ -249,12 +292,12 @@
     width: 550px;
     justify-self: center;
     margin: 5px; 
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .creativeteam {
     justify-self: baseline;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .beni3 {
@@ -267,11 +310,11 @@
     width: 550px;
     justify-self: center;
     margin: 5px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 .results {
     justify-self: baseline;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .beni4 {
@@ -284,12 +327,12 @@
     width: 550px;
     justify-self: center;
     margin: 5px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .pricing {
     justify-self: baseline;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
     
 
@@ -303,12 +346,12 @@
     width: 550px;
     justify-self: center;
     margin: 5px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .innovations {
     justify-self: baseline;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 
@@ -322,12 +365,12 @@
     width: 550px;
     justify-self: center;
     margin: 5px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .support {
     justify-self: baseline;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 nav {
@@ -338,38 +381,48 @@ nav {
     color: white;
     font-size:25px;
     border-radius: 10px;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .section5 {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .about {
     color: #9693E6;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .ptag1 {
     color: #9693E6;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .ptag2 {
     color: lightgray;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 
 .bossman {
     border-radius: 50%;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
+.bosstab{
+    display: grid;
+     grid-template-columns: auto ;
+
+
+}
+
+
 .bossquote {
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    display: grid;
+    position: absolute;
+
 }
 
 .linked {
@@ -381,7 +434,7 @@ nav {
     grid-template-columns: auto auto;
     border-radius: 20px;
     margin: 20px;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 #section6 {
@@ -390,7 +443,7 @@ nav {
     background-color: #9693E6;
     justify-items: center;
     height: 600px;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 
@@ -406,7 +459,7 @@ nav {
     grid-template-rows: auto auto auto;
     justify-content: space-evenly;
     align-content: space-evenly;
-    grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 
 .stp {
@@ -415,7 +468,7 @@ nav {
     display: grid;
     grid-template-columns: auto auto;
     text-align-last: center;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    
 }
 }
  
@@ -425,424 +478,10 @@ nav {
 
 /* tablet  */
     @media (min-width:768px) and (max-width: 1023px) {
-        Body {
-            display: grid;
-            grid-template-rows: auto auto auto auto auto;
-             grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-             font-family: sans-serif
-           
-            }
-    
-    
-    
-    
-    #header {
-        display: grid;
-        grid-template-columns: auto auto;
-        background-color: #0084FF;
-        color: white;
-        margin: 5px;
-        border-radius: 10px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        
-    }
-     
-    .dropdown {
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: right;
-        align-content: center;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    #section1 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .one {
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        background-color: #B8DDFF;
-        color: #0084FF;
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    .two {
-        background-color: #CAF0DB;
-        color: #54C788;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    .three {
-        background-color: #FFD2D2;
-        color: #FF8A8A;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    .four {
-        background-color: #FFE7C4;
-        color: #FFC166;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    .five {
-        background-color: #D5D4F5;
-        color: #9693E6;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    #section2 {
-        background-color: #9693E6;
-        display: grid;
-         grid-template-rows: auto auto;
-         grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        border-radius: 10px;
-    
-    }
-    
-    .six {
-        display: grid;
-        justify-items: center;
-        color: white;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .seven {
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        justify-items: center;
-        background-color:#9693E6;
-        margin: 20px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        
-    }
-    
-    .seven1 {
-        background-color: white;
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        border-radius: 10px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        
-    }
-    
-    
-    .ideaman {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .appd {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .arrow {
-        background-color: #9693E6;
-        display: grid;
-        justify-self: center;
-        border-radius: 50%;
-        width: 50px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    #section3 {
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    
-    }
-    
-    .testies {
-        display: grid;
-        grid-template-rows: auto auto auto;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        
-    }
-    .testimonials {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .committed {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    .para {
-        display: grid;
-        justify-self: center;
-        width: 500px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    
-    .dork {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        background-color: #FF8A8A;
-        justify-items: center;
-        border-radius: 10px;
-        width: 400px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .hottie {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        background-color: #FFC166;
-        justify-items: center;
-        border-radius: 10px;
-        width: 400px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .red {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        background-color: #54C788;
-        justify-items: center;
-        border-radius: 10px;
-        width: 400px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    
-    #section4 {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto auto;
-        background-color: #0084FF;
-        color: white;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .beni1{
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color:white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .beni2
-    {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px; 
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .creativeteam {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .beni3 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    .results {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .beni4 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .pricing {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+
     }
         
-    
-    .beni5 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .innovations {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .beni6 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .support {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    nav {
-        display: grid;
-        grid-template-columns: auto;
-        justify-self: start;
-        background-color: #9693E6;
-        color: white;
-        font-size:25px;
-        border-radius: 10px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .section5 {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .about {
-        color: #9693E6;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .ptag1 {
-        color: #9693E6;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .ptag2 {
-        color: lightgray;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .bossman {
-        border-radius: 50%;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .bossquote {
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .linked {
-        background-color:#9693E6 ;
-        width: 250px;
-        color: white;
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: auto auto;
-        border-radius: 20px;
-        margin: 20px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    #section6 {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto auto;
-        background-color: #9693E6;
-        justify-items: center;
-        height: 600px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    
-    .getstarted {
-        background-color: white;
-        width: 200px;
-        height: 40px;
-        font-size: large;
-        color:#9693E6 ;
-        border-radius: 20px;
-        display: grid;
-        grid-template-rows: auto auto auto;
-        justify-content: space-evenly;
-        align-content: space-evenly;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .stp {
-        color: white;
-        font-size:x-large;
-        display: grid;
-        grid-template-columns: auto auto;
-        text-align-last: center;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    }
+       
      
     
     
@@ -860,424 +499,9 @@ nav {
    
    /*desktop   */
     @media (min-width: 1024px) {
-        Body {
-            display: grid;
-            grid-template-rows: auto auto auto auto auto;
-             grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-             font-family: sans-serif
-           
-            }
-    
-    
-    
-    
-    #header {
-        display: grid;
-        grid-template-columns: auto auto;
-        background-color: #0084FF;
-        color: white;
-        margin: 5px;
-        border-radius: 10px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        
-    }
-     
-    .dropdown {
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: right;
-        align-content: center;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    #section1 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .one {
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        background-color: #B8DDFF;
-        color: #0084FF;
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    .two {
-        background-color: #CAF0DB;
-        color: #54C788;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    .three {
-        background-color: #FFD2D2;
-        color: #FF8A8A;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    .four {
-        background-color: #FFE7C4;
-        color: #FFC166;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    .five {
-        background-color: #D5D4F5;
-        color: #9693E6;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-        justify-items: center;
-        border-radius: 10px;
-        margin: 5px;
-    }
-    
-    #section2 {
-        background-color: #9693E6;
-        display: grid;
-         grid-template-rows: auto auto;
-         grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        border-radius: 10px;
-    
-    }
-    
-    .six {
-        display: grid;
-        justify-items: center;
-        color: white;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .seven {
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        justify-items: center;
-        background-color:#9693E6;
-        margin: 20px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        
-    }
-    
-    .seven1 {
-        background-color: white;
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        border-radius: 10px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        
-    }
-    
-    
-    .ideaman {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .appd {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .arrow {
-        background-color: #9693E6;
-        display: grid;
-        justify-self: center;
-        border-radius: 50%;
-        width: 50px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    #section3 {
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    
-    }
-    
-    .testies {
-        display: grid;
-        grid-template-rows: auto auto auto;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-        
-    }
-    .testimonials {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .committed {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    .para {
-        display: grid;
-        justify-self: center;
-        width: 500px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    
-    .dork {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        background-color: #FF8A8A;
-        justify-items: center;
-        border-radius: 10px;
-        width: 400px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .hottie {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        background-color: #FFC166;
-        justify-items: center;
-        border-radius: 10px;
-        width: 400px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .red {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        background-color: #54C788;
-        justify-items: center;
-        border-radius: 10px;
-        width: 400px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    
-    #section4 {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto auto;
-        background-color: #0084FF;
-        color: white;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .beni1{
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color:white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .beni2
-    {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px; 
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .creativeteam {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .beni3 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    .results {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .beni4 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .pricing {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-        
-    
-    .beni5 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .innovations {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .beni6 {
-        display: grid;
-        grid-template-rows: auto auto auto auto ;
-        background-color: white;
-        color: #9693E6;
-        justify-items: center;
-        border-radius: 10px;
-        width: 550px;
-        justify-self: center;
-        margin: 5px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .support {
-        justify-self: baseline;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    nav {
-        display: grid;
-        grid-template-columns: auto;
-        justify-self: start;
-        background-color: #9693E6;
-        color: white;
-        font-size:25px;
-        border-radius: 10px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .section5 {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .about {
-        color: #9693E6;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .ptag1 {
-        color: #9693E6;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .ptag2 {
-        color: lightgray;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    .bossman {
-        border-radius: 50%;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .bossquote {
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .linked {
-        background-color:#9693E6 ;
-        width: 250px;
-        color: white;
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: auto auto;
-        border-radius: 20px;
-        margin: 20px;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    #section6 {
-        display: grid;
-        grid-template-rows: auto auto auto auto auto auto;
-        background-color: #9693E6;
-        justify-items: center;
-        height: 600px;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    
-    
-    .getstarted {
-        background-color: white;
-        width: 200px;
-        height: 40px;
-        font-size: large;
-        color:#9693E6 ;
-        border-radius: 20px;
-        display: grid;
-        grid-template-rows: auto auto auto;
-        justify-content: space-evenly;
-        align-content: space-evenly;
-        grid-template-rows: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    
-    .stp {
-        color: white;
-        font-size:x-large;
-        display: grid;
-        grid-template-columns: auto auto;
-        text-align-last: center;
-        grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
-    }
-    }
+
+}
+       
      
     
     
@@ -1327,279 +551,3 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-/* /* body {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto auto;
-    background-color: rgb(251, 255, 255);
-    padding: 5px 5px;
-    border: 5px solid black;
-    margin: 5px 5px 5px 5px;
-    font-family: sans-serif;
-    grid-template-rows: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.header {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: #0084FF;
-    color: white;
-    padding: 5px 5px;
-    border: 5px solid white;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-#section1{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* padding: 5px 5px;
-    border: 5px solid rgb(190, 21, 21);
-    margin: 5px 5px 5px 5px; */
-    /* grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec1grp1{
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    background-color:#B8DDFF;
-    grid-column: 1/3;
-    padding: 5px 5px;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-    color: #0084FF;
-}
-
-.sec1grp2{
-    display: grid;
-    background-color: #CAF0DB;
-    padding: 5px 5px;
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-    
-    }
-
-.sec1grp3{
-    display: grid;
-    background-color: #FFD2D2;
-    padding: 5px 5px;
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec1grp4{
-    display: grid;
-    background-color: #FFE7C4;
-    padding: 5px 5px;
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-
-.sec1grp5{
-    display: grid;
-    background-color: #D5D4F5;
-    padding: 5px 5px;
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-#section2{
-    display: grid;
-    grid-template-rows: ;
-    grid-template-columns: auto auto;
-    background-color: #9693E6;
-    padding: 5px 5px;
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec2grp1{
-
-    display: grid;
-    grid-template-rows: auto auto;
-    padding: 5px 5px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-
-}
-
-.wavingwoman{
-    justify-self: end;
-}
-
-.arrow{
-    background-color: #D5D4F5;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    
-}
-
-
-.sec2grp2{
-    display: grid;
-    grid-template-rows: 3fr 1fr;
-    padding: 5px 5px;
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    background-color: white;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-#section3{
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    justify-items: center;
-    grid-template-rows: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec3grp0{
-    display: grid;
-    width: 500px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}    
-
-.sec3grp1{
-    display: grid;
-    background-color: #FFD2D2;
-    border-radius: 10px;
-    width: 500px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec3grp2{
-    display: grid;
-    background-color: #FFC166;
-    border-radius: 10px;
-    width: 500px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec3grp3{
-    display: grid;
-    background-color: #54C788;
-    border-radius: 10px;
-    width: 500px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-#section4{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    background-color: #9693E6;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-
-
-
-
-
-.sec4grp0 {
-    display: grid;
-    grid-template-columns: auto;
-    background-color: #9693E6;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    justify-items: center;
-    /* padding: 5px 5px; */
-    /* border: 5px solid rgb(235, 35, 35); */
-    /* margin: 0px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec4grp1{
-    display: grid;
-    background-color: #D5D4F5;
-    border-radius: 10px;
-    padding: 5px 5px;
-    border: 5px solid rgb(235, 35, 35);
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec4grp2{
-    display: grid;
-    background-color: #D5D4F5;
-    border-radius: 10px;
-    padding: 5px 5px;
-    border: 5px solid rgb(235, 35, 35);
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec4grp3{
-    display: grid;
-    background-color: #D5D4F5;
-    border-radius: 10px;
-    padding: 5px 5px;
-    border: 5px solid rgb(235, 35, 35);
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec4grp4{
-    display: grid;
-    background-color: #D5D4F5;
-    border-radius: 10px;
-    padding: 5px 5px;
-    border: 5px solid rgb(235, 35, 35);
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec4grp5{
-    display: grid;
-    background-color: #D5D4F5;
-    border-radius: 10px;
-    padding: 5px 5px;
-    border: 5px solid rgb(235, 35, 35);
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-.sec4grp6{
-    display: grid;
-    background-color: #D5D4F5;
-    border-radius: 10px;
-    padding: 5px 5px;
-    border: 5px solid rgb(235, 35, 35);
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}
-
-#section5{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-columns: repeat(auto-fit, minma(250px, 1fr));
-}   */
