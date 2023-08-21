@@ -426,28 +426,30 @@ nav {
 
 .bossman {
     border-radius: 50%;
-    
+    display: grid;
+    grid-template-rows: auto;
+    justify-self: left;
 }
 
 .bosstab{
-    
+    display: grid;
      grid-template-columns: auto ;
-
+    
 
 }
 
 
 .bossquote {
-    
+    display: grid;
     position: absolute;
-
+    background-color: #9693E6;
 }
 
 .linked {
     background-color:#9693E6 ;
     width: 250px;
     color: white;
-    
+    display: grid;
     grid-template-rows: auto;
     grid-template-columns: auto auto;
     border-radius: 20px;
@@ -456,7 +458,7 @@ nav {
 }
 
 #section6 {
-    
+    display: grid;
     grid-template-rows: auto auto auto auto auto auto;
     background-color: #9693E6;
     justify-items: center;
@@ -473,7 +475,7 @@ nav {
     font-size: large;
     color:#9693E6 ;
     border-radius: 20px;
-    
+    display: grid;
     grid-template-rows: auto auto auto;
     justify-content: space-evenly;
     align-content: space-evenly;
@@ -483,7 +485,7 @@ nav {
 .stp {
     color: white;
     font-size:x-large;
-    
+    display: grid;
     grid-template-columns: auto auto;
     text-align-last: center;
     
