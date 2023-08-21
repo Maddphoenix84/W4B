@@ -100,9 +100,9 @@
 
 #section2 {
     background-color: #9693E6;
-    
+    display: grid;
      grid-template-rows: auto auto;
-    
+    justify-items: center;
     border-radius: 10px;
 
 }
@@ -117,17 +117,19 @@
 .seven {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    justify-self: center;
-    background-color:#9693E6;
+    justify-self: 
+    width: 970px;
+    height: 430px;
     margin: 20px;
-    
+   
     
 }
 
 .seven1 {
-    background-color: white;
+    background-color: #ffffff;
     display: grid;
     grid-template-rows: auto auto auto auto;
+    justify-items: center;
     border-radius: 10px;
     
     
@@ -136,8 +138,10 @@
 
 .ideaman {
     display: grid;
-    justify-items: center;
-    
+    justify-items: ;
+    background-color: white;
+    width: 200px;
+    border-radius: 20px;
 }
 
 
@@ -172,11 +176,17 @@
 .divcontainer2 {
     display: grid;
     justify-content: center;
+    color: #9693E6;
 }   
 
 .divcontainer3 {
     display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
+    width: 491px;
+    display: grid;
+    width: 491px;
+    align-content: space-between;
 }
 
 
