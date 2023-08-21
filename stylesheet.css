@@ -138,7 +138,7 @@
 
 .ideaman {
     display: grid;
-    justify-items: ;
+    
     background-color: white;
     width: 200px;
     border-radius: 20px;
@@ -181,11 +181,10 @@
 
 .divcontainer3 {
     display: grid;
-    grid-template-columns: auto auto auto;
     justify-content: center;
-    width: 491px;
-    display: grid;
-    width: 491px;
+   
+    
+    
     align-content: space-between;
 }
 
